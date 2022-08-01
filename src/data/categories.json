@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "housing"
+    },
+    {
+        "id": 2,
+        "name": "travel"
+    },
+    {
+        "id": 3,
+        "name": "food"
+    },
+    {
+        "id": 4,
+        "name": "products"
+    },
+    {
+        "id": 5,
+        "name": "services"
+    }
+]

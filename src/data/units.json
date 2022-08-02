@@ -1,0 +1,30 @@
+[
+    {
+        "name": "kg",
+        "type": "mass"
+    },
+    {
+        "name": "lb",
+        "type": "mass"
+    },
+    {
+        "name": "kWh",
+        "type": "energy"
+    },
+    {
+        "name": "litres",
+        "type": "volume"
+    },
+    {
+        "name": "day",
+        "type": "time"
+    },
+    {
+        "name": "month",
+        "type": "time"
+    },
+    {
+        "name": "year",
+        "type": "time"
+    }
+]

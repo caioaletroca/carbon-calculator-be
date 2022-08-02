@@ -4,7 +4,7 @@ import data from '../data/categories.json';
 
 @Injectable()
 export class CategoryService {
-    public findAll(): Category[] {
+    public getAll(): Category[] {
         return data;
     }
 }

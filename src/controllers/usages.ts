@@ -1,7 +1,7 @@
 // import { Inject } from "@decorators/di";
 // import { Controller, Get, Params, Response } from "@decorators/express";
 // import { Response as ExpressResponse } from "express";
-// import { UsageService } from "services/usage";
+// import { UsageService } from "../services/usage";
 
 // @Controller('/categories')
 // export class CategoryController {

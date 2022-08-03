@@ -1,6 +1,6 @@
 import { Injectable } from "@decorators/di";
-import { Category } from "models";
-import data from 'data/categories.json';
+import { Category } from "../models";
+import data from '../data/categories.json';
 
 @Injectable()
 export class CategoryService {

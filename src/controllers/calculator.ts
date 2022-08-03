@@ -1,10 +1,9 @@
 import { Inject } from "@decorators/di";
-import { AllMeasuresUnits } from "convert-units";
 import { Controller, Post, Request, Response } from "@decorators/express";
 import { Request as ExpressRequest, Response as ExpressResponse } from "express";
-import { CarbonData } from "models";
-import { TimeConverterService } from "services/timeConverter";
-import { UnitConverterService } from "services/unitConverter";
+import { CarbonData } from "../models";
+import { TimeConverterService } from "../services/timeConverter";
+import { UnitConverterService } from "../services/unitConverter";
 
 @Controller('/calculate')
 export class CalculatorController {
@@ -20,7 +19,7 @@ export class CalculatorController {
         // Convert unit
         carbonData = carbonData.map((data) => ({
             ...data,
-            value: this.unitConverterService.convert(data.value, data.unit_type as AllMeasuresUnits, data.usage.unit as AllMeasuresUnits)
+            value: this.unitConverterService.convert(data.value, data.unit_type, data.usage.unit)
         }));
 
         // Convert time
@@ -31,8 +30,6 @@ export class CalculatorController {
 
         // Calculate by the Factor
         const output = carbonData.map((data) => ({
-            id: data.usage.id,
-            category_id: data.usage.category_id,
             name: data.usage.name,
             value: data.value * data.usage.emission_factor
         }))

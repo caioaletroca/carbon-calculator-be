@@ -1,5 +1,5 @@
 import { Injectable } from "@decorators/di";
-import { Category } from "models";
+import { Category } from "../models";
 
 @Injectable()
 export class TimeConverterService {

@@ -1,6 +1,6 @@
 import { Injectable } from "@decorators/di";
-import { Usage } from "models";
-import data from 'data/usages.json';
+import { Usage } from "../models";
+import data from '../data/usages.json';
 
 @Injectable()
 export class UsageService {

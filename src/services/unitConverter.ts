@@ -1,6 +1,6 @@
 import { Injectable } from "@decorators/di";
-import { Unit } from "../models";
-import data from '../data/units.json';
+import { Unit } from "models";
+import data from 'data/units.json';
 import configureMeasurements, { allMeasures, AllMeasuresUnits } from 'convert-units';
 
 @Injectable()

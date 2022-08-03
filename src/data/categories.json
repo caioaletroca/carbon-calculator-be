@@ -10,13 +10,5 @@
     {
         "id": 3,
         "name": "food"
-    },
-    {
-        "id": 4,
-        "name": "products"
-    },
-    {
-        "id": 5,
-        "name": "services"
     }
 ]

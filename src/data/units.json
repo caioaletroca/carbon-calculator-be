@@ -8,12 +8,36 @@
         "type": "mass"
     },
     {
+        "name": "kJ",
+        "type": "energy"
+    },
+    {
+        "name": "Wh",
+        "type": "energy"
+    },
+    {
         "name": "kWh",
         "type": "energy"
     },
     {
-        "name": "litres",
+        "name": "mm3",
         "type": "volume"
+    },
+    {
+        "name": "l",
+        "type": "volume"
+    },
+    {
+        "name": "gal",
+        "type": "volume"
+    },
+    {
+        "name": "km",
+        "type": "length"
+    },
+    {
+        "name": "mi",
+        "type": "length"
     },
     {
         "name": "day",

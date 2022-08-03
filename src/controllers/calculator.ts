@@ -31,6 +31,8 @@ export class CalculatorController {
 
         // Calculate by the Emission Factor
         const output = carbonData.map((data) => ({
+            id: data.usage.id,
+            category_id: data.usage.category_id,
             name: data.usage.name,
             value: data.value * data.usage.emission_factor
         }))

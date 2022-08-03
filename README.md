@@ -24,6 +24,10 @@ An abstraction layer for ORM architectures.
 
 Implements the main logic for data handling, storage and query for real databases, and helper utilities services.
 
+## Technical Details
+
+The approach was to build a calculator with the capacibility to handle any categories or subcategories (usages), making it scalable and easier to add more information, and with support for any unit measures input.
+
 ## Tech Stack
 
     - TypeScript

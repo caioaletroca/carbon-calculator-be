@@ -1,5 +1,8 @@
 import BaseModel from "./BaseModel";
 
+/**
+ * Sub category inside the Category model, for detailed calculation
+ */
 export class Usage extends BaseModel {
     public id!: number;
     public category_id!: number;
